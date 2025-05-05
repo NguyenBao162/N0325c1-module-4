@@ -1,9 +1,8 @@
-package com.techzen.academy_n0325c1.Ngay2.dto;
+package com.techzen.academy_n0325c1.Day2.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import org.springframework.http.codec.ServerSentEvent;
 
 @Getter
 @Setter
@@ -12,11 +11,9 @@ import org.springframework.http.codec.ServerSentEvent;
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @JsonInclude(JsonInclude.Include.NON_NULL)
-    public class ApiResponse<T> {
-       private Integer code;
-       private String message;
-        T data;
-
-
+public class ApiResponse<T> {
+    Integer code;
+    String message;
+    T data;
 }
 

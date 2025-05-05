@@ -1,4 +1,4 @@
-package com.techzen.academy_n0325c1.Ngay2.controller;
+package com.techzen.academy_n0325c1.Day2.controller;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -6,8 +6,8 @@ import lombok.experimental.FieldDefaults;
 @Getter
 @Setter
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Department {
     Integer id;
