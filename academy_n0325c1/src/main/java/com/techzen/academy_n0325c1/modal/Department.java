@@ -1,4 +1,4 @@
-package com.techzen.academy_n0325c1.Day2.controller;
+package com.techzen.academy_n0325c1.modal;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

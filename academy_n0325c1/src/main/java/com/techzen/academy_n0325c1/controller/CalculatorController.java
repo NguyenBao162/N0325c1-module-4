@@ -1,4 +1,4 @@
-package com.techzen.academy_n0325c1.Ngay1.Bai3_Calculator;
+package com.techzen.academy_n0325c1.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package com.techzen.academy_n0325c1.Day2.exception;
+package com.techzen.academy_n0325c1.exception;
 
-import com.techzen.academy_n0325c1.Day2.dto.ApiResponse;
+import com.techzen.academy_n0325c1.dto.ApiResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

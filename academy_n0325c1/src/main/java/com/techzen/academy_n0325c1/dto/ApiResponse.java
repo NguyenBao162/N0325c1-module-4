@@ -1,4 +1,4 @@
-package com.techzen.academy_n0325c1.Day2.dto;
+package com.techzen.academy_n0325c1.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

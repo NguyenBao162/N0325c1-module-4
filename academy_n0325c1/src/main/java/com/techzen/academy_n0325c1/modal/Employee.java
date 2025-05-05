@@ -1,5 +1,6 @@
-package com.techzen.academy_n0325c1.Day2.controller;
+package com.techzen.academy_n0325c1.modal;
 
+import com.techzen.academy_n0325c1.enums.Gender;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import java.time.LocalDate;

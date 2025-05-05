@@ -1,4 +1,4 @@
-package com.techzen.academy_n0325c1.Ngay1.Bai2_Search;
+package com.techzen.academy_n0325c1.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

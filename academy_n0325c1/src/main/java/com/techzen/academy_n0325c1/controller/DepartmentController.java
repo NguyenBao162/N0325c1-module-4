@@ -1,20 +1,23 @@
-package com.techzen.academy_n0325c1.Day2.controller;
+package com.techzen.academy_n0325c1.controller;
 
-import ch.qos.logback.core.spi.ErrorCodes;
-import com.techzen.academy_n0325c1.Day2.dto.JsonResponse;
-import com.techzen.academy_n0325c1.Day2.exception.AppExepciton;
-import com.techzen.academy_n0325c1.Day2.exception.Errorcode;
-import lombok.Getter;
+import com.techzen.academy_n0325c1.modal.Department;
+import com.techzen.academy_n0325c1.util.JsonResponse;
+import com.techzen.academy_n0325c1.exception.AppExepciton;
+import com.techzen.academy_n0325c1.exception.Errorcode;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.experimental.FieldDefaults;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.UUID;
 
 @RequestMapping("/departments")
 @RestController
+@AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE,makeFinal = true)
 public class DepartmentController {
 
     private final List<Department> departments = new ArrayList<>(

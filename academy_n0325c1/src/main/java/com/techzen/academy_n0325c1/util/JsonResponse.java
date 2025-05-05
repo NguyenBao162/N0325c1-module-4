@@ -1,5 +1,6 @@
-package com.techzen.academy_n0325c1.Day2.dto;
+package com.techzen.academy_n0325c1.util;
 
+import com.techzen.academy_n0325c1.dto.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 

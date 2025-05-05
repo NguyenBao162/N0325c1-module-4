@@ -1,4 +1,4 @@
-package com.techzen.academy_n0325c1.Day2.exception;
+package com.techzen.academy_n0325c1.exception;
 
 import lombok.AccessLevel;
 import lombok.Getter;
